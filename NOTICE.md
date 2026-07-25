@@ -1,7 +1,8 @@
 # Notices and data policy
 
 This repository contains only original research code, aggregate experimental
-results, and documentation.
+results, documentation, and an artwork-free visualization rendered from an
+episode replay.
 
 It does not distribute:
 

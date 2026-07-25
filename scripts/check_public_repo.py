@@ -9,6 +9,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 MAX_FILE_BYTES = 1_000_000
 IGNORED_DIRECTORIES = {".git", ".ruff_cache", ".pytest_cache", "__pycache__"}
+ALLOWED_BINARY_ASSETS = {
+    Path("assets/v4-vs-alakazam.gif"): b"GIF89a",
+}
 BANNED_SUFFIXES = {
     ".dylib",
     ".so",
@@ -64,6 +67,10 @@ def main() -> int:
             target = path.resolve()
             if ROOT not in target.parents and target != ROOT:
                 problems.append(f"{relative}: symlink escapes repository")
+            continue
+        if relative in ALLOWED_BINARY_ASSETS:
+            if not path.read_bytes().startswith(ALLOWED_BINARY_ASSETS[relative]):
+                problems.append(f"{relative}: invalid allowlisted media signature")
             continue
         try:
             text = path.read_text(encoding="utf-8")

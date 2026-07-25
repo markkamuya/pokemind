@@ -12,6 +12,15 @@ bad leaderboard submissions.
 > This is an independent research project. It is not affiliated with, endorsed
 > by, or sponsored by The Pokémon Company, Kaggle, or their affiliates.
 
+## Agent battle demo
+
+![Condensed replay of V4 Starmie Search defeating an Alakazam agent](assets/v4-vs-alakazam.gif)
+
+This 26-second highlight reel is rendered from an authentic competition episode:
+V4 defeats an Alakazam deck in 15 turns after recovering from 90/330 HP. It uses
+abstract board panels and card names—no card artwork, raw replay, opponent
+decision data, or simulator assets are distributed.
+
 ## Highlights
 
 - V4 reached a **911 peak public score** and currently sits near **826**.
