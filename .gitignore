@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Credentials
+.env
+.env.*
+!.env.example
+.kaggle/
+kaggle.json
+access_token
+*access_token*
+*oauth*
+*.pem
+*.key
+
+# Competition and third-party assets
+data/
+datasets/
+replays/
+results/
+results_*/
+models/
+submissions/
+submission/
+*.dylib
+*.so
+*.dll
+*.tar
+*.tar.gz
+*.zip
+*.pdf
+
+# Generated experiment artifacts
+*.npz
+*.npy
+*.pkl
+*.pickle
+*.joblib
+*.lgb
+*.bin
+wandb/
+mlruns/

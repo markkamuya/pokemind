@@ -1,0 +1,71 @@
+{
+  "leaderboard": [
+    {
+      "version": "V1",
+      "public_score": 561.2,
+      "approach": "Two-turn search"
+    },
+    {
+      "version": "V2",
+      "public_score": 519.8,
+      "approach": "Fast deterministic heuristic"
+    },
+    {
+      "version": "V3",
+      "public_score": 668.9,
+      "approach": "Tournament-selected Starmie deck"
+    },
+    {
+      "version": "V4",
+      "public_score": 826.0,
+      "peak_score": 911.0,
+      "approach": "Starmie sequencing and energy management"
+    },
+    {
+      "version": "V5",
+      "public_score": 762.3,
+      "approach": "Replay-derived guards and disruption"
+    }
+  ],
+  "comparisons": [
+    {
+      "name": "Grim mirror (two fresh batches)",
+      "games": 240,
+      "baseline_wins": 125,
+      "candidate_wins": 147,
+      "baseline_draws": 4,
+      "candidate_draws": 3
+    },
+    {
+      "name": "Alakazam (two fresh batches)",
+      "games": 240,
+      "baseline_wins": 174,
+      "candidate_wins": 182
+    },
+    {
+      "name": "Occurrence-weighted field",
+      "games": 240,
+      "baseline_wins": 133,
+      "candidate_wins": 142,
+      "baseline_draws": 4,
+      "candidate_draws": 4
+    },
+    {
+      "name": "Grim baseline versus V4",
+      "games": 160,
+      "baseline_wins": 22,
+      "candidate_wins": 29
+    },
+    {
+      "name": "V4 Q transfer (stopped early)",
+      "games": 180,
+      "baseline_wins": 134,
+      "candidate_wins": 121
+    }
+  ],
+  "notes": [
+    "Local games use replay-derived decks but cannot reproduce private opponent policies.",
+    "The counterfactual Q branch was retained as research infrastructure, not submitted.",
+    "V4 reached a 911 observed peak and is currently rated near 826."
+  ]
+}
