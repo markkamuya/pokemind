@@ -3,13 +3,13 @@ requires = ["setuptools>=69"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "ptcg-agent-lab"
+name = "pokemind"
 version = "0.1.0"
 description = "Reproducible evaluation and counterfactual policy research for turn-based card-game agents"
 readme = "README.md"
 requires-python = ">=3.11"
 license = {file = "LICENSE"}
-authors = [{name = "PTCG Agent Lab contributors"}]
+authors = [{name = "PokeMind contributors"}]
 keywords = ["agents", "reinforcement-learning", "game-ai", "evaluation"]
 classifiers = [
   "Development Status :: 3 - Alpha",
@@ -29,7 +29,7 @@ dev = [
 ]
 
 [project.scripts]
-ptcg-lab = "ptcg_agent_lab.cli:main"
+pokemind = "pokemind.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]

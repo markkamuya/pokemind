@@ -30,7 +30,7 @@ After creating an empty GitHub repository:
 
 ```bash
 git branch -M main
-git remote add origin https://github.com/YOUR_ACCOUNT/ptcg-agent-lab.git
+git remote add origin https://github.com/YOUR_ACCOUNT/pokemind.git
 git push -u origin main
 ```
 

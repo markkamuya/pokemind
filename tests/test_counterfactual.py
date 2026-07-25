@@ -1,6 +1,6 @@
 import unittest
 
-from ptcg_agent_lab.counterfactual import (
+from pokemind.counterfactual import (
     ActionBranch,
     episode_is_holdout,
     summarize_selection,

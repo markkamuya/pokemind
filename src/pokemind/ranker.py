@@ -1,4 +1,4 @@
-"""Dependency-free inference for JSON-exported LightGBM tree ensembles."""
+"""PokeMind inference for JSON-exported LightGBM tree ensembles."""
 
 from __future__ import annotations
 

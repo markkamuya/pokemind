@@ -1,4 +1,4 @@
-"""Framework-agnostic counterfactual decision-root utilities."""
+"""PokeMind's framework-agnostic counterfactual decision-root utilities."""
 
 from __future__ import annotations
 

@@ -1,6 +1,6 @@
 import unittest
 
-from ptcg_agent_lab.ranker import TreeRanker
+from pokemind.ranker import TreeRanker
 
 
 class RankerTests(unittest.TestCase):

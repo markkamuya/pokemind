@@ -1,7 +1,7 @@
 import unittest
 
-from ptcg_agent_lab.gates import GateCriteria, evaluate_gate
-from ptcg_agent_lab.metrics import compare_counts
+from pokemind.gates import GateCriteria, evaluate_gate
+from pokemind.metrics import compare_counts
 
 
 class GateTests(unittest.TestCase):

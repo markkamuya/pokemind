@@ -46,5 +46,5 @@ directly into expected leaderboard ratings.
 Generate this table from the sanitized source data with:
 
 ```bash
-ptcg-lab summarize examples/benchmark_results.json
+pokemind summarize examples/benchmark_results.json
 ```

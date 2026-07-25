@@ -1,6 +1,6 @@
 import unittest
 
-from ptcg_agent_lab.meta import (
+from pokemind.meta import (
     MetaEntry,
     allocate_occurrence_counts,
     interleaved_schedule,

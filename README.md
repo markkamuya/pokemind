@@ -1,7 +1,11 @@
-# PTCG Agent Lab
+# PokeMind
 
-An experimental framework for building, evaluating, and rejecting agents for a
-turn-based trading-card simulator.
+[![CI](https://github.com/markkamuya/pokemind/actions/workflows/ci.yml/badge.svg)](https://github.com/markkamuya/pokemind/actions/workflows/ci.yml)
+
+![PokeMind — AI for strategic card battles](assets/pokemind-social-preview.jpg)
+
+PokeMind is an experimental framework for building, evaluating, and rejecting
+agents for a turn-based trading-card simulator.
 
 The project began with hand-written heuristics and progressed through forward
 search, replay imitation, adversarial evaluation, on-policy evolution, and
@@ -90,7 +94,7 @@ The public core has no runtime dependencies:
 python -m venv .venv
 source .venv/bin/activate
 python -m pip install -e .
-ptcg-lab summarize examples/benchmark_results.json
+pokemind summarize examples/benchmark_results.json
 python -m unittest discover -s tests -v
 ```
 
@@ -105,7 +109,7 @@ pytest
 ## Repository map
 
 ```text
-src/ptcg_agent_lab/
+src/pokemind/
 ├── counterfactual.py   # Decision-root datasets and regret metrics
 ├── gates.py            # Candidate promotion rules
 ├── meta.py             # Occurrence-weighted schedules

@@ -1,10 +1,10 @@
-"""Explicit candidate-promotion gates."""
+"""Explicit PokeMind candidate-promotion gates."""
 
 from __future__ import annotations
 
 from dataclasses import dataclass
 
-from ptcg_agent_lab.metrics import CountComparison
+from pokemind.metrics import CountComparison
 
 
 @dataclass(frozen=True)

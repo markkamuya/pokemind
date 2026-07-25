@@ -1,15 +1,15 @@
-"""Command-line interface for public experiment reports."""
+"""PokeMind command-line interface for public experiment reports."""
 
 from __future__ import annotations
 
 import argparse
 from pathlib import Path
 
-from ptcg_agent_lab.results import load_results, render_markdown
+from pokemind.results import load_results, render_markdown
 
 
 def build_parser() -> argparse.ArgumentParser:
-    parser = argparse.ArgumentParser(prog="ptcg-lab")
+    parser = argparse.ArgumentParser(prog="pokemind")
     subparsers = parser.add_subparsers(dest="command", required=True)
     summarize = subparsers.add_parser(
         "summarize", help="render a sanitized benchmark JSON file"

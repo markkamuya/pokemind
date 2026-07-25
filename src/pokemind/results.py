@@ -1,4 +1,4 @@
-"""Load sanitized experiment results and render a Markdown summary."""
+"""Load sanitized PokeMind results and render a Markdown summary."""
 
 from __future__ import annotations
 
@@ -6,7 +6,7 @@ import json
 from pathlib import Path
 from typing import Any
 
-from ptcg_agent_lab.metrics import compare_counts
+from pokemind.metrics import compare_counts
 
 
 def load_results(path: Path) -> dict[str, Any]:

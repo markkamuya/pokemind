@@ -1,6 +1,6 @@
 import unittest
 
-from ptcg_agent_lab.results import render_markdown
+from pokemind.results import render_markdown
 
 
 class ResultsTests(unittest.TestCase):

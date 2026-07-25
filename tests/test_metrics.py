@@ -1,6 +1,6 @@
 import unittest
 
-from ptcg_agent_lab.metrics import BinomialResult, compare_counts
+from pokemind.metrics import BinomialResult, compare_counts
 
 
 class MetricsTests(unittest.TestCase):

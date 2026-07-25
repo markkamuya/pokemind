@@ -1,4 +1,4 @@
-"""Occurrence-weighted matchup schedules."""
+"""PokeMind occurrence-weighted matchup schedules."""
 
 from __future__ import annotations
 

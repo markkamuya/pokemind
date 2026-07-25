@@ -10,6 +10,7 @@ ROOT = Path(__file__).resolve().parents[1]
 MAX_FILE_BYTES = 1_000_000
 IGNORED_DIRECTORIES = {".git", ".ruff_cache", ".pytest_cache", "__pycache__"}
 ALLOWED_BINARY_ASSETS = {
+    Path("assets/pokemind-social-preview.jpg"): b"\xff\xd8\xff",
     Path("assets/v4-vs-alakazam.gif"): b"GIF89a",
 }
 BANNED_SUFFIXES = {

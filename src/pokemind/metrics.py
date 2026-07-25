@@ -1,4 +1,4 @@
-"""Small, dependency-free statistical helpers for policy evaluation."""
+"""Small, dependency-free statistical helpers for PokeMind evaluation."""
 
 from __future__ import annotations
 
